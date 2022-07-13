@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
-import PepFun
+import pepfun
 
 setup(
-    name='PepFun',
-    version=PepFun.__version__,
+    name='pepfun',
+    version=pepfun.__version__,
     packages=find_packages(),
 )
